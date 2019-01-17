@@ -17,7 +17,7 @@ namespace ClassLibrary
             try
             {
                 MySqlConnection conn = new MySqlConnection();
-                string path = "/public/DBInfo.json"; //파일 경로
+                string path = "C:/public/DBInfo.json"; //파일 경로
                 //파일을 열어서 읽고.다읽었으면 종료 시킨다.
                 string result = new StreamReader(File.OpenRead(path)).ReadToEnd();
                 //제이슨 오브젝트로 바꿀것 = 스트링 값을 오브젝트로 바꿀것.
